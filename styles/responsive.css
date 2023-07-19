@@ -82,6 +82,16 @@
     .special-video {
         height: 25rem;
     }
+    .career-right {
+        background-image: url("../images/career-bg.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        margin-top: 2rem;
+    }
+    .careers-main-wrapper {
+        background-image: inherit;
+    }
 }
 
 /* Mobile 576px */
@@ -183,10 +193,6 @@
         width: 100%;
         text-align: center;
         margin: 0 0 2rem 0;
-    }
-    .careers-main-wrapper {
-        background-position: bottom center;
-        background-size: 80%;
     }
     .careers-main-wrapper > .container {
         flex-direction: column;

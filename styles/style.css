@@ -147,6 +147,7 @@ img {
 }
 .btn-group {
     padding-top: 2rem;
+    margin-left: -10px;
 }
 
 /* We are gamer section style */
