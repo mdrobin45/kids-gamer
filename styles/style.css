@@ -189,7 +189,28 @@ img {
     padding: 4rem 0 2rem 0;
     text-align: center;
 }
-
+.special-video {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/9.png);
+    background-size: cover;
+    background-position: center center;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 3px solid var(--primary-color);
+}
+.play-icon a {
+    color: var(--primary-color);
+}
+.play-icon {
+    text-align: center;
+}
+.play-icon i {
+    color: #fff;
+    font-size: 40px;
+}
 /* Play instant section style */
 .play-instant-main-wrapper,
 .play-online-main-wrapper {
@@ -344,6 +365,9 @@ img {
     width: 19%;
 }
 .category-main-wrapper-mobile {
+    display: none;
+}
+.category-section-mobile {
     display: none;
 }
 
