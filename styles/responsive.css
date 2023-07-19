@@ -1,3 +1,5 @@
+@media screen and (max-width: 992px) {
+}
 /* Tablet 768px */
 @media screen and (max-width: 768px) {
     /* Header */
@@ -21,6 +23,61 @@
     .banner-right > img {
         width: 80%;
     }
+    .wag-main-wrapper {
+        padding: 2rem 0;
+    }
+    .wag-right-wrapper {
+        width: 100%;
+    }
+    .videos-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .single-video-wrapper {
+        width: 100%;
+    }
+    .instant-right-wrapper img:nth-child(1) {
+        width: 60%;
+    }
+    .instant-right-wrapper img:nth-child(2) {
+        width: 25%;
+        left: 30%;
+    }
+    .instant-left-wrapper,
+    .play-online-right {
+        width: 100%;
+    }
+    .instant-left-content {
+        width: 100%;
+        margin: 0;
+        text-align: inherit;
+    }
+    .play-online-left img:nth-child(1) {
+        width: 60%;
+    }
+    .play-online-left img:nth-child(2) {
+        width: 25%;
+        right: 26%;
+    }
+    .play-online-content {
+        width: 100%;
+        margin: 0;
+    }
+    .careers-main-wrapper > .container {
+        flex-direction: column;
+    }
+    .career-right img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .category-section {
+        display: none;
+    }
+    .category-main-wrapper-mobile {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 17px;
+    }
 }
 
 /* Mobile 576px */
@@ -32,6 +89,13 @@
     .header-wrapper,
     .nav-wrapper {
         flex-direction: column;
+    }
+    .nav-wrapper nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-wrapper nav a {
+        margin: 7px 0;
     }
     .logo-wrapper {
         padding: 1rem 0;
@@ -53,7 +117,7 @@
     }
     .banner-main-wrapper {
         background-position: bottom center;
-        background-size: 100%;
+        background-size: 114%;
     }
     .banner-right {
         margin-bottom: 3rem;
@@ -72,6 +136,7 @@
     }
     .videos-wrapper {
         flex-direction: column;
+        display: flex;
     }
     .single-video-wrapper {
         width: 100%;
@@ -79,6 +144,7 @@
     }
     .play-instant-main-wrapper {
         flex-direction: column;
+        padding-top: 0;
     }
     .instant-left-wrapper {
         width: 100%;
@@ -93,15 +159,18 @@
     }
     .instant-right-wrapper img:nth-child(2) {
         left: 0;
+        width: 35%;
     }
     .play-online-main-wrapper {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        padding-top: 0;
     }
     .play-online-left img:nth-child(1) {
         width: 80%;
     }
     .play-online-left img:nth-child(2) {
         right: 0;
+        width: 35%;
     }
     .play-online-right {
         width: 100%;
@@ -109,7 +178,7 @@
     .play-online-content {
         width: 100%;
         text-align: center;
-        margin: 5rem 0 0 0;
+        margin: 0 0 2rem 0;
     }
     .careers-main-wrapper {
         background-position: bottom center;
@@ -126,13 +195,13 @@
         margin-top: 2rem;
     }
     .category-main-wrapper-mobile {
-        display: grid;
+        display: grid !important;
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
     }
-    /* .category-section {
+    section.category-section {
         display: none;
-    } */
+    }
     .cat-item-wrapper p {
         font-size: 10px;
     }
