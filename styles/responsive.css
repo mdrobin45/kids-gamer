@@ -1,0 +1,47 @@
+/* Breakpoint 576px */
+@media screen and (max-width: 576px) {
+    /* Header */
+    header {
+        box-shadow: inherit;
+    }
+    .header-wrapper,
+    .nav-wrapper {
+        flex-direction: column;
+    }
+    .logo-wrapper {
+        padding: 1rem 0;
+    }
+    .logo-wrapper img {
+        margin: auto;
+        display: flex;
+    }
+
+    /* Banner */
+    .banner-main-wrapper > .container {
+        flex-direction: column-reverse;
+    }
+    .banner-right > img {
+        width: 100%;
+    }
+    .banner-main-wrapper {
+        background-position: bottom center;
+        background-size: 100%;
+    }
+    .banner-right {
+        margin-bottom: 3rem;
+    }
+}
+
+/* Breakpoint 768px */
+@media screen and (max-width: 768px) {
+    /* Header */
+    .nav-wrapper nav {
+        display: flex;
+    }
+    .nav-wrapper nav a {
+        margin: 0 10px;
+    }
+    .logo-wrapper img {
+        width: 70%;
+    }
+}
