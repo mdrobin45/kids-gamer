@@ -22,15 +22,21 @@
     .career-right img {
         width: 100%;
     }
+    .single-video-wrapper {
+        height: 80%;
+        width: 80%;
+    }
     .banner-right > img {
         width: 80%;
     }
     .wag-main-wrapper {
         padding: 2rem 0;
+        background: none;
     }
     .videos-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        height: 700px;
     }
     .instant-right-wrapper img:nth-child(1) {
         width: 60%;
@@ -117,7 +123,6 @@
     .banner-left,
     .banner-right > img,
     .wag-right-wrapper,
-    .single-video-wrapper,
     .instant-left-wrapper,
     .instant-left-content,
     .play-online-right,
@@ -125,6 +130,10 @@
     .careers-left,
     .career-right img {
         width: 100%;
+    }
+    .single-video-wrapper {
+        width: 70%;
+        height: 80%;
     }
     .banner-main-wrapper {
         background-image: inherit;
@@ -153,6 +162,9 @@
     .videos-wrapper {
         flex-direction: column;
         display: flex;
+        height: 1200px;
+        gap: 90px;
+        padding-bottom: 8rem;
     }
     .single-video-wrapper {
         text-align: center;
