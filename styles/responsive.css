@@ -127,8 +127,11 @@
         width: 100%;
     }
     .banner-main-wrapper {
-        background-position: bottom center;
-        background-size: 114%;
+        background-image: inherit;
+    }
+    .banner-left {
+        background-image: url("../images/2.png");
+        padding: 20px;
     }
     .banner-right {
         margin-bottom: 3rem;
