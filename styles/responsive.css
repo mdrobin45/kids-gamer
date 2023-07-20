@@ -132,7 +132,7 @@
     .banner-left {
         background-image: url("../images/2.png");
         padding: 20px 15px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
