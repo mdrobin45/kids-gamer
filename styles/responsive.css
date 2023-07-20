@@ -131,7 +131,10 @@
     }
     .banner-left {
         background-image: url("../images/2.png");
-        padding: 20px;
+        padding: 20px 15px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
     .banner-right {
         margin-bottom: 3rem;
