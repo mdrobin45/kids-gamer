@@ -1,6 +1,5 @@
 /* Tablet 768px */
 @media screen and (max-width: 768px) {
-    /* Header */
     .nav-wrapper nav {
         display: flex;
     }
@@ -10,12 +9,17 @@
     .logo-wrapper img {
         width: 70%;
     }
-
-    /* Banner */
     .banner-main-wrapper {
         background-size: 70%;
     }
-    .banner-left {
+    .banner-left,
+    .wag-right-wrapper,
+    .single-video-wrapper,
+    .instant-left-wrapper,
+    .play-online-right,
+    .instant-left-content,
+    .play-online-content,
+    .career-right img {
         width: 100%;
     }
     .banner-right > img {
@@ -24,15 +28,9 @@
     .wag-main-wrapper {
         padding: 2rem 0;
     }
-    .wag-right-wrapper {
-        width: 100%;
-    }
     .videos-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
-    .single-video-wrapper {
-        width: 100%;
     }
     .instant-right-wrapper img:nth-child(1) {
         width: 60%;
@@ -41,13 +39,7 @@
         width: 25%;
         left: 30%;
     }
-    .instant-left-wrapper,
-    .play-online-right {
-        width: 100%;
-    }
     .instant-left-content {
-        width: 100%;
-        margin: 0;
         text-align: inherit;
     }
     .play-online-left img:nth-child(1) {
@@ -57,15 +49,14 @@
         width: 25%;
         right: 26%;
     }
-    .play-online-content {
-        width: 100%;
+    .play-online-content,
+    .instant-left-content {
         margin: 0;
     }
     .careers-main-wrapper > .container {
         flex-direction: column;
     }
     .career-right img {
-        width: 100%;
         margin: 2rem auto 0 auto;
     }
     .category-section {
@@ -123,10 +114,16 @@
     .banner-main-wrapper > .container {
         flex-direction: column-reverse;
     }
-    .banner-left {
-        width: 100%;
-    }
-    .banner-right > img {
+    .banner-left,
+    .banner-right > img,
+    .wag-right-wrapper,
+    .single-video-wrapper,
+    .instant-left-wrapper,
+    .instant-left-content,
+    .play-online-right,
+    .play-online-content,
+    .careers-left,
+    .career-right img {
         width: 100%;
     }
     .banner-main-wrapper {
@@ -142,7 +139,6 @@
         flex-direction: column;
     }
     .wag-right-wrapper {
-        width: 100%;
         text-align: center;
     }
     .wag-main-wrapper {
@@ -153,22 +149,18 @@
         display: flex;
     }
     .single-video-wrapper {
-        width: 100%;
         text-align: center;
     }
     .play-instant-main-wrapper {
         flex-direction: column;
         padding-top: 0;
     }
-    .instant-left-wrapper {
-        width: 100%;
-    }
     .instant-left-content {
-        width: 100%;
         margin: 0 0 2rem 0;
         text-align: center;
     }
-    .instant-right-wrapper img:nth-child(1) {
+    .instant-right-wrapper img:nth-child(1),
+    .play-online-left img:nth-child(1) {
         width: 80%;
     }
     .instant-right-wrapper img:nth-child(2) {
@@ -179,29 +171,18 @@
         flex-direction: column-reverse;
         padding-top: 0;
     }
-    .play-online-left img:nth-child(1) {
-        width: 80%;
-    }
     .play-online-left img:nth-child(2) {
         right: 0;
         width: 35%;
     }
-    .play-online-right {
-        width: 100%;
-    }
     .play-online-content {
-        width: 100%;
         text-align: center;
         margin: 0 0 2rem 0;
     }
     .careers-main-wrapper > .container {
         flex-direction: column;
     }
-    .careers-left {
-        width: 100%;
-    }
     .career-right img {
-        width: 100%;
         margin-top: 2rem;
     }
     .category-main-wrapper-mobile {
