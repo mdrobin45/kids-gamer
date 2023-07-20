@@ -208,6 +208,8 @@ img {
 .video-1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
         url(../images/7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .video-1:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -217,6 +219,8 @@ img {
 .video-2 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
         url(../images/8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .video-2:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -226,6 +230,8 @@ img {
 .video-3 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
         url(../images/10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .video-3:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -235,6 +241,8 @@ img {
 .video-4 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
         url(../images/9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .video-4:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
